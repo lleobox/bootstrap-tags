@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-tags",
+  "version": "1.0.0",
+  "description": "用于 bootstrap 的标签插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lleobox/bootstrap-tags.git"
+  },
+  "keywords": [
+    "tags",
+    "bootstrap-script"
+  ],
+  "author": "lleohao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lleobox/bootstrap-tags/issues"
+  },
+  "homepage": "https://github.com/lleobox/bootstrap-tags#readme",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.5"
+  }
+}

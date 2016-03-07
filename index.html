@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap-tags</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/style.min.css">
+    <style>
+        .container {
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="col-md-6 col-md-offset-3">
+        <form action="#">
+            <button class="btn btn-primary" id="append-tag">增加标签</button>
+            <div id="tags">
+                <div class="tags-area tags-concontrol">
+                </div>
+                <div class="input-area tags-concontrol">
+                    <input type="text" name="tags" id="tags_new" placeholder="请输入标签" class="form-control">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="dist/tags.min.js"></script>
+<script>
+    initTags()
+</script>
+</body>
+</html>

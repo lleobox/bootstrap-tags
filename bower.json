@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-tags",
+  "description": "用于 bootstrap 的标签插件",
+  "authors": [
+    "lleohao"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "tags",
+    "bootstrap-script"
+  ],
+  "homepage": "https://github.com/lleobox/bootstrap-tags",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
