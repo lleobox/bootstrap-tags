@@ -1,6 +1,6 @@
 # bootstrap-tags
 基于 bootstrap 的 tags(标签) 插件
-![demo][1]
+![demo][https://github.com/lleobox/bootstrap-tags/raw/master/tags-demo.gif]
 
 ###使用方法：
 1. 简单调用
@@ -13,7 +13,7 @@
     ```
 
 2. 带默认值的调用
-    ![demo][2]
+    ![demo][https://github.com/lleobox/bootstrap-tags/raw/master/tags-demo2.jpg]
     ```html
     <input type="text" name="tags" data-toggle="tags">
     ```
@@ -36,7 +36,3 @@
 
 ###后续添加的功能
 1. 添加与服务器的交互，实现智能填写
-
-
-  [1]: https://github.com/lleobox/bootstrap-tags/blob/master/tags-demo.gif
-  [2]: https://github.com/lleobox/bootstrap-tags/blob/master/tags-demo2.jpg
