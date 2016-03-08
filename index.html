@@ -17,7 +17,6 @@
         <form>
             <input type="text" name="tags" id="tags" placeholder="请输入标签" class="form-control" data-toggle="tags">
         </form>
-        <button id="btn">dd</button>
     </div>
 </div>
 
@@ -25,8 +24,9 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="src/tags.js"></script>
 <script>
-    $('#btn').click(function () {
-        $('form').submit();
+    $(function () {
+        // $('[data-toggle="tags"]').tags();
+        $('[data-toggle="tags"]').tags('lleohao','bootstrap');
     });
 </script>
 </body>

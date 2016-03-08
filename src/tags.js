@@ -96,7 +96,3 @@
         return this;
     };
 })(jQuery);
-
-$(function () {
-    $('[data-toggle="tags"]').tags('a','b','c');
-});
