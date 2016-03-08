@@ -1,22 +1,18 @@
-#tags {
-    position: relative;
+.form-tags span, .input-tags {
+    padding: .3em .6em .3em;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 4px 0 0;
+    line-height: 26px;
+    font-weight: normal;
 }
 
-#tags i {
+.form-tags i {
     font-size: 12px;
-    line-height: 20px;
+    line-height: 25px;
+    padding-left: 6px;
 }
 
-.tags-concontrol {
-    display: inline-block;
-}
-
-.tag-item {
-    background-color: #2aabd2;
-    color: #fff;
-    display: inline-block;
-    padding: 6px 12px;
-    margin: 0 4px 3px 0;
-    border-radius: 2px;
-    cursor: pointer;
+.input-tags {
+    width: auto;
 }
