@@ -1,6 +1,7 @@
 # bootstrap-tags
 基于 bootstrap 的 tags(标签) 插件
-![demo][https://github.com/lleobox/bootstrap-tags/raw/master/tags-demo.gif]
+
+![demo](https://github.com/lleobox/bootstrap-tags/raw/master/tags-demo.gif)
 
 ###使用方法：
 1. 简单调用
@@ -12,8 +13,8 @@
     $('[data-toggle="tags"]').tags(); // 在你需要使用 'tags插件' 的元素上调用 tags()方法
     ```
 
-2. 带默认值的调用
-    ![demo][https://github.com/lleobox/bootstrap-tags/raw/master/tags-demo2.jpg]
+2. 带默认值的调用    
+    ![demo](https://github.com/lleobox/bootstrap-tags/raw/master/tags-demo2.jpg)    
     ```html
     <input type="text" name="tags" data-toggle="tags">
     ```
