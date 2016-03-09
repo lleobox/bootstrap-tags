@@ -15,7 +15,8 @@
 <div class="container">
     <div class="col-md-6 col-md-offset-3">
         <form>
-            <input type="text" name="tags" id="tags" placeholder="请输入标签" class="form-control" data-toggle="tags">
+            <input value="ok,hello" type="text" name="tags" id="tags" placeholder="请输入标签" class="form-control" data-toggle="tags">
+            <button type="submit" class="btn btn-primary">提交</button>
         </form>
     </div>
 </div>
@@ -25,8 +26,7 @@
 <script src="src/tags.js"></script>
 <script>
     $(function () {
-        // $('[data-toggle="tags"]').tags();
-        $('[data-toggle="tags"]').tags('lleohao','bootstrap');
+        $('[data-toggle="tags"]').tags('bootstrap');
     });
 </script>
 </body>

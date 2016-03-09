@@ -16,6 +16,7 @@
             if ($(elem).parent('div.form-tags')[0]) {
                 return;
             }
+
             $(elem).wrap($('<div class="form-tags"></div>')).hide(); // 隐藏原来的 input
             var input = $('<input class="input-tags form-control" placeholder="请输入标签"/>').insertAfter($(elem));
             self.bind(input); // 绑定事件
@@ -59,7 +60,10 @@
                 // enter code 13
                 if (keycode != '13') {
                     return;
+                } else {
+                    event.preventDefault();
                 }
+
                 var text = self.val();
                 if (!text) { // 未输入任何值则不处理
                     return;
@@ -90,9 +94,12 @@
     };
 
     $.fn.tags = function () {
-        var tags = new Tags(this);
-        var values = Array.prototype.slice.call(arguments);
-        tags.set(this, values);
+        var tags = new Tags(this),
+            values = Array.prototype.slice.call(arguments),
+            old_value = this.val() ? this.val().split(',') : [];
+
+        // 自动导入表单的 value 值
+        tags.set(this, values.concat(old_value));
         return this;
     };
 })(jQuery);
